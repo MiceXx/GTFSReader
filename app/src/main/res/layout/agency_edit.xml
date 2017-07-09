@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8px">
+    <TextView
+        android:id="@+id/txtagencyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Agency Name" />
+    <EditText
+        android:id="@+id/agencyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtagencyname" />
+    <TextView
+        android:id="@+id/txtagencyurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Agency URL"
+        android:layout_below="@id/agencyname"/>
+    <EditText
+        android:id="@+id/agencyurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtagencyurl"/>
+    <TextView
+        android:id="@+id/txtagencytz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Agency Timezone"
+        android:layout_below="@id/agencyurl"/>
+    <EditText
+        android:id="@+id/agencytz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtagencytz"/>
+    <TextView
+        android:id="@+id/txtagencyph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Agency Phone number"
+        android:layout_below="@id/agencytz"/>
+    <EditText
+        android:id="@+id/agencyph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtagencyph" />
+    <TextView
+        android:id="@+id/txtagencyid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Agency ID"
+        android:layout_below="@id/agencyph"/>
+    <EditText
+        android:id="@+id/agencyid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtagencyid"/>
+    <TextView
+        android:id="@+id/txtagencylang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Agency Language"
+        android:layout_below="@id/agencyid"/>
+    <EditText
+        android:id="@+id/agencylang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtagencylang" />
+
+</RelativeLayout>
